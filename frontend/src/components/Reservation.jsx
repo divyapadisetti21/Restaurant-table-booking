@@ -16,8 +16,10 @@ const Reservation = () => {
   const handleReservation = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post(
-  "http://localhost:5000/api/v1/reservation/send",
+const API_URL = import.meta.env.VITE_API_URL;  // from environment variable
+
+const { data } = await axios.post(
+  `${API_URL}/reservation/send`,
   { firstName, lastName, email, phone, date, time },
   {
     headers: { "Content-Type": "application/json" },
