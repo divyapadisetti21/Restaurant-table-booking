@@ -6,3 +6,8 @@ Users can select their preferred date and time, enter contact details, and book 
 - Table booking with date and time selection  
 - User-friendly form for contact details  
 - Reservation confirmation with redirection to the main page 
+
+🛠 Tech Stack
+- Frontend: React, Vercel (Deployment)
+- Backend: Node.js, Express, Render (Deployment)
+- Database: MongoDB
