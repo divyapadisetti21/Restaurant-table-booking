@@ -8,6 +8,6 @@ Users can select their preferred date and time, enter contact details, and book 
 - Reservation confirmation with redirection to the main page 
 
 🛠 Tech Stack
-- Frontend: React, Vercel (Deployment)
+- Frontend: VIte, React, Vercel (Deployment)
 - Backend: Node.js, Express, Render (Deployment)
 - Database: MongoDB
